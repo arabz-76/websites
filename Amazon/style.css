@@ -1,0 +1,380 @@
+* {
+     margin: 0px;
+     font-family: Arial;
+     border: border-box;
+
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}/*BOX1*/
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid gainsboro ;
+   
+}
+/*box 2*/
+.add-first{
+    color: #ccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+  
+    
+}
+.add-secand{
+    
+    font-size: 1rem;
+    margin-left: px ;
+    
+}
+.add-ico{
+    display: flex;
+    align-items:center;
+    margin-right: 4px;
+    
+}
+/*BOX3*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd68;
+    width: 1000px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px ;
+    border: none;
+
+}
+.search-input{
+    width:100% ;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+.nav-search:hover{
+    border: 2px solid orange ;
+}
+/*box4*/
+span{
+    font-size: 0.7rem;
+    
+}
+.nav-2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*8*/
+
+.nav-cart i {
+    font-size: 30px;
+}
+/* signin*/
+.buttons {
+    display: flex;
+}
+
+.buttons a {
+    color:black;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navbar ul li a:hover, .buttons a:hover {
+    background-color: #555;
+}
+
+/*panel*/
+.panel
+{
+    height: 40px;
+    background-color:#222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.panel-ops p
+{
+    display: inline;
+    margin: 15PX;
+}
+.panel-ops
+{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.panel-deals:hover{
+    border: 2PX solid gray;
+}
+/*background*/
+/* Background Slider */
+.background {
+
+    height: 400px;
+
+   
+}
+
+    .slide {
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        background-position: top;
+        opacity: 0;
+        animation: slideAnimation 12s infinite;
+        object-fit: cover;
+        
+    }
+
+    .slide:nth-child(1) {
+        background-image: url('11.jpg' ); /* Update with your image path */
+        animation-delay: 0s;
+        padding-top: px;
+        object-position: top;
+        
+    }
+
+    .slide:nth-child(2) {
+        background-image: url('hero2.png'); /* Update with your image path */
+        animation-delay: 4s;
+    }
+
+    .slide:nth-child(3) {
+        background-image: url('hero3.png'); /* Update with your image path */
+        animation-delay: 8s;
+    }
+
+    @keyframes slideAnimation {
+        0% {
+            opacity: 2;
+        }
+        8% {
+            opacity: 1;
+        }
+        33% {
+            opacity: 1;
+        }
+        41% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    .background p{
+       
+    background-color:white ;
+    
+    color: #222f3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 17%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10spx;
+    font-weight: bold;
+    overflow: hidden;
+    flex-wrap: wrap;
+   
+    }
+    .background a {
+        color: #007100;
+        text-decoration: none;
+    }
+    
+      
+    
+
+/*.messg{
+    background-color:white ;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 25px;
+    position: fixed;
+}
+.messg a {
+    color: #007100;
+}
+/*shop section*/
+.shop-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+
+.box
+{
+    
+    height: 400px;
+    width: 23%;
+    margin: 10px;
+    background-color: white;
+    padding: 20px,0px,15px;
+}
+.box-img
+{
+    height: 300px;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    overflow: hidden;
+}
+.box-content
+{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    
+}
+
+
+}
+.box-content p {
+    color: #007100;
+}
+.box-content a:hover{
+    border: px solid white ;
+    background-color: gainsboro;
+    
+    
+    
+}
+.adds-section{
+    
+    width: 72%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+   
+
+}
+
+.adds-img{
+    height: 250px;
+    margin-left: 10px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+    
+
+    
+}
+/*footer*/
+.footer-panel1
+{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+    
+    
+}
+.footer-panel2
+{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+.footer-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+}
+.logo-footer{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 80px;
+    width: 200px;
+    
+}
+.footer-panel4
+{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+
+}
+.page{
+    padding: 10px;
+}
+.page a{
+    text-decoration: none;
+    color: white;
+}
